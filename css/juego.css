@@ -1,0 +1,51 @@
+body{
+    padding: 20px;
+}
+table{
+    font-size: 40px;
+    border-collapse: collapse;
+    margin: auto;
+}
+table, tr, td{
+    border: 1px solid black;
+}
+td{
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: middle;
+}
+td:hover{
+    background-color: lightgray;
+}
+.noHayGanador{
+    border: 1px solid gray;
+    width: 300px;
+    padding: 10px;
+    background-color: lightgray;
+    font-size: 20px;
+}
+.hayGanador{
+    border: 1px solid blue;
+    width: 300px;
+    padding: 10px;
+    background-color: lightblue;
+    font-size: 20px;
+}
+.celdaJugada{
+    background-color: lightpink;
+}
+ul{
+  list-style: none;  
+}
+li{
+    background-color: rgb(230, 247, 252);
+    padding: 5px;
+    margin: 5px;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.logAlerta{
+    background-color: rgb(255, 229, 233);    
+}
